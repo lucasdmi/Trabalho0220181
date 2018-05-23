@@ -5,7 +5,7 @@
     <string name="falta">Nº de Faltas</string>
     <string name="filho">Nº de Filhos</string>
     <string name="calcular">Calcular</string>
-    <string-array name="cargo">
+    <string-array name="a_cargo">
         <item>Gerente</item>
         <item>Supervisor</item>
         <item>Servente</item>
