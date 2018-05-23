@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Trabalho0220181</string>
+    <string name="escolha">Escolha um cargo: </string>
+    <string name="hora">Nº Horas extras trabalhadas</string>
+    <string name="falta">Nº de Faltas</string>
+    <string name="filho">Nº de Filhos</string>
+    <string name="calcular">Calcular</string>
+    <string-array name="cargo">
+        <item>Gerente</item>
+        <item>Supervisor</item>
+        <item>Servente</item>
+    </string-array>
 </resources>
