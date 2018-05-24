@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
             proventos = (salarioBase + vHora + vFilho);
             INSS =  (float) (proventos * 0.1);
             descontos = vFalta + INSS;
-            salarioLiquido = proventos - INSS;
+            salarioLiquido = proventos - descontos;
 
 
         }
@@ -111,7 +111,7 @@ public class MainActivity extends AppCompatActivity {
                 proventos = (salarioBase + vHora + vFilho);
                 INSS =  (float) (proventos * 0.1);
                 descontos = vFalta + INSS;
-                salarioLiquido = proventos - INSS;
+                salarioLiquido = proventos - descontos;
             }
             else{
                 if(item.equals("Servente"))
@@ -132,7 +132,7 @@ public class MainActivity extends AppCompatActivity {
                     proventos = (salarioBase + vHora + vFilho);
                     INSS =  (float) (proventos * 0.1);
                     descontos = vFalta + INSS;
-                    salarioLiquido = proventos - INSS;
+                    salarioLiquido = proventos - descontos;
                 }
             }
         }
