@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
             vFilho = (float) (salarioBase * 0.03);
 
             hora = Integer.parseInt(edtHora.getText().toString());
-            falta = Integer.parseInt(edtFilho.getText().toString());
+            falta = Integer.parseInt(edtFalta.getText().toString());
             filho = Integer.parseInt(edtFilho.getText().toString());
 
             vHora = vHora * hora;
@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
                 vFilho = (float) (salarioBase * 0.03);
 
                 hora = Integer.parseInt(edtHora.getText().toString());
-                falta = Integer.parseInt(edtFilho.getText().toString());
+                falta = Integer.parseInt(edtFalta.getText().toString());
                 filho = Integer.parseInt(edtFilho.getText().toString());
 
                 vHora = vHora * hora;
@@ -122,7 +122,7 @@ public class MainActivity extends AppCompatActivity {
                     vFilho = (float) (salarioBase * 0.03);
 
                     hora = Integer.parseInt(edtHora.getText().toString());
-                    falta = Integer.parseInt(edtFilho.getText().toString());
+                    falta = Integer.parseInt(edtFalta.getText().toString());
                     filho = Integer.parseInt(edtFilho.getText().toString());
 
                     vHora = vHora * hora;
